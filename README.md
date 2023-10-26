@@ -4,6 +4,8 @@ Forecasting gas demand distributed via local gas networks in the UK.
 
 All analysis and results are contained in the notebook `main.ipynb`. The source directory `src/` contains some helper code, including the Bayesian linear regression model, linear basis mapping and some evaluation metrics. The provided datasets can be found in the `data/` directory.
 
+A good reference on BLR can be found in chapter 9 of [Maths for Machine Learning](https://mml-book.github.io/book/mml-book.pdf).
+
 Apologies for the lack of docstrings and proper commenting / documentation, I was quite pressed for time!
 
 ## Installation :computer: 
