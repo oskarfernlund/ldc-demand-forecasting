@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ldc-demand-forecasting"
+version = "0.1.0"
+description = "Forecasting gas demand distributed via local gas networks in the UK."
+authors = ["Oskar Fernlund <oskar.fernlund@outlook.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.26.1"
+pandas = "^2.1.1"
+tensorflow-macos = "^2.14.0"
+tensorflow-probability = "^0.22.1"
+gpflow = "^2.9.0"
+matplotlib = "^3.8.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
